@@ -1,0 +1,245 @@
+/* You may use the following selectors, but it's not required. */
+
+body {
+	font-family: Raleway;
+	font-weight: 300;
+	
+}
+
+#topbar {
+padding: 10px 0px;
+background: #2f353f;
+position: absolute;
+width: 100%;
+top:0;
+}
+
+.topbar-text {
+cursor: pointer;
+color: white;
+padding: 0px 30px;
+font-size: 12px;
+font-weight: 100;
+line-height: 30px;
+float:right;
+transition: 0.3s;
+-moz-transition: 0.3s;
+-webkit-transition: 0.3s;
+opacity: 0.2;
+}
+
+.topbar-text:hover{
+	opacity: 1;
+}
+
+#container {
+	
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0px;
+    
+}
+
+
+#banner{
+	text-align: center;
+	margin-top: 40;
+}
+
+#bottom_banner {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#thumbnail {
+	
+	/* margin-left:auto; */
+	/* margin-right: auto; */
+	float: right;
+	padding-top: 1.5%;
+   
+}
+
+#thumbnail img {
+   
+}
+a {
+	color: inherit;
+}
+
+#header {
+	text-align: center;
+	margin: 30px;
+	font-family: Lato;
+    
+}
+
+#heading {
+	text-align: center;
+	font-weight: bold;
+	margin: 15px;
+	font-family: Lato;
+	font-size: 25px;
+
+}
+#blog-heading {
+	text-align: center;
+	font-weight: bold;
+	margin: 15px;
+	font-family: Lato;
+	font-size: 25px;
+	padding-top: 100px;
+
+}
+
+#subheading {
+	text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-family: Lato;
+    text-size: 25px;
+}
+
+#description {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 40px;
+    padding-bottom: 3%;
+}
+#hobbies {
+    position: relative;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+    line-height: 40px;
+    font-size: 20px;
+}
+#link {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	text-decoration: none;
+	background-color: #7aba71;
+	text-align: center;
+	padding: 20px 30px;
+	width: 120px;
+	border-radius: 3px;
+
+}
+
+
+#list-container {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
+#list-title {
+	text-decoration: underline;
+	padding-bottom:10px
+	;
+	
+}
+.list-item{
+	padding-bottom: 3px;
+}
+.list-items{
+	padding-bottom: 3px;
+
+	
+}
+
+#nd-list {
+	font-size: 13px;
+	font-style: italic;
+
+	
+}
+#future_title{
+	text-align:center;
+	font-weight:700;
+	margin-top:50px;
+	margin-bottom: 40px;
+	border-top: solid 1px #ddd;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+#future_content{
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 40px;
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	margin: 2em;
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 2em;
+}
+
+.social-media {
+	padding: 1em;
+}
+
+#blog-contentarea{
+    margin-left: 80px;
+}
+#blog-title {
+    padding: 40px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #857c78;
+
+}
+.post {
+    background: white;
+ <!--   position: absolute;-->
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    border: 1px solid #DDD;
+    box-shadow: 0px 0px 6px #DDD;
+
+}
+.post_category {
+    color: red;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+.post_title {
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top:20px;
+    color: #2f3f39;
+
+}
+.post_author {
+    font-weight: bold;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+    color: #3f392f;
+}
+.post_content {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    font-weight:200;
+    line-height: 35px;
+}
